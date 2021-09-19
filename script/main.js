@@ -280,13 +280,13 @@ const animationTimeline = () => {
 const fetchData = () => {
   
      
-     
+     var a = Array('\u2665');
         
             document
               .getElementById("imagePath")
               .setAttribute("src", "img/wk.jpg");
         
-            document.getElementById("name").innerText = "Udaya";
+            document.getElementById("name").innerText = "Ashwini"+a[0];
        
         
     
