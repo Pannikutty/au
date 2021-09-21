@@ -286,7 +286,7 @@ const fetchData = () => {
               .getElementById("imagePath")
               .setAttribute("src", "img/wk.jpg");
         
-            document.getElementById("name").innerText = "Ashwini"+a[0];
+            document.getElementById("name").innerText = "Ashwini \n"+a[0];
   
   var audio = new Audio('bd.mp3');
     audio.play();
